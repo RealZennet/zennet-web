@@ -8,6 +8,7 @@ import { HomeComponent } from './core/pages/home/home.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { ZtruckingComponent } from './core/pages/ztrucking/ztrucking.component';
+import { AboutusComponent } from './core/pages/aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ZtruckingComponent } from './core/pages/ztrucking/ztrucking.component';
     HomeComponent,
     FooterComponent,
     HeaderComponent,
-    ZtruckingComponent
+    ZtruckingComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
